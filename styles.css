@@ -24,15 +24,6 @@ html, body {
     background: linear-gradient(to left, #050202, #c19b4a);
 }
 
-.hero::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    background: linear-gradient(to left, #c19b4a, #050202);
-}
 
 .hero h1 {
     font-weight: normal;
@@ -72,6 +63,7 @@ html, body {
     background-color: #553d1e; 
     border-radius: 20px;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 
 .Personaje-Card-Photo {
@@ -89,7 +81,7 @@ html, body {
 }
 
 .Personaje-Card:hover img {
-    transform: rotate(20deg) scale(1.4);
+    transform: rotate(2deg) scale(1.2);
 }
 
 .Personaje-Card-Text {
